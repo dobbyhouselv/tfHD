@@ -1,0 +1,19 @@
+.terraform
+.terraform.lock.hcl
+customdata_ansible.tpl
+customdata_docker.tpl
+customdata_*.tpl
+*.md
+*.ppk
+*terraform.tfstate*
+*putty.log
+*key
+*.key
+*.pub
+*.priv*
+
+# not ignored
+!README.md
+!example_key.priv
+!example_key.pub
+!customdata_example.tpl
